@@ -1,6 +1,6 @@
-package net.ruixin.springboot.service;
+package com.amar.demo.service;
 
-import net.ruixin.springboot.entity.Student;
+import com.amar.demo.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;

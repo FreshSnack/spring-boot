@@ -1,4 +1,4 @@
-package net.ruixin.springboot.util;
+package com.amar.demo.util;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

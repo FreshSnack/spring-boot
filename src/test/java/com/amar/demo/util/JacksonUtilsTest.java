@@ -1,12 +1,10 @@
-package net.ruixin.springboot.util;
+package com.amar.demo.util;
 
-import net.ruixin.springboot.entity.Student;
+import com.amar.demo.entity.Student;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class JacksonUtilsTest {
 

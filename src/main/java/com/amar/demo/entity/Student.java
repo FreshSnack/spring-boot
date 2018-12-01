@@ -1,4 +1,4 @@
-package net.ruixin.springboot.entity;
+package com.amar.demo.entity;
 
 /**
  * @author dingmx

@@ -1,9 +1,8 @@
-package net.ruixin.springboot.controller;
+package com.amar.demo.controller;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import net.ruixin.springboot.entity.Student;
-import net.ruixin.springboot.service.HelloService;
-import net.ruixin.springboot.util.JacksonUtils;
+import com.amar.demo.entity.Student;
+import com.amar.demo.service.HelloService;
+import com.amar.demo.util.JacksonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

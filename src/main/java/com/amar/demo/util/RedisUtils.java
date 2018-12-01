@@ -1,4 +1,4 @@
-package net.ruixin.springboot.util;
+package com.amar.demo.util;
 
 import java.util.List;
 import java.util.Map;

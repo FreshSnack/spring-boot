@@ -1,7 +1,7 @@
-package net.ruixin.springboot;
+package com.amar.demo;
 
-import net.ruixin.springboot.entity.Student;
-import net.ruixin.springboot.service.HelloService;
+import com.amar.demo.entity.Student;
+import com.amar.demo.service.HelloService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@SpringBootTest(classes = com.amar.demo.app.Application.class)
 public class ApplicationTests {
 
     @Test
