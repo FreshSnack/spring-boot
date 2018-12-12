@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layer demo</title>
+</head>
+<body>
+
+<input type="button" name="alert" value="alert"/>
+<input type="button" name="msg" value="msg"/>
+<input type="button" name="tips" value="tips"/>
+
+<script type="text/javascript" src="../lib/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="../plugin/layer/layer.min.js"></script>
+<script type="text/javascript">
+    $('input[name="alert"]').click(function () {
+        layer.alert('this is a alert');
+    });
+    $('input[name="msg"]').click(function () {
+        layer.msg('this is a msg');
+    });
+    $('input[name="tips"]').click(function () {
+        layer.tips('this is a tips', 'input[name="tips"]');
+    });
+</script>
+
+</body>
+</html>
