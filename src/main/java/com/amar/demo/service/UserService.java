@@ -31,6 +31,9 @@ public class UserService {
      * pageSize 每页显示的数据条数
      * */
     public PageInfo<User> findAllUser(int pageNum, int pageSize) {
+        /*if(pageNum < 2) {
+            throw new BusinessException("pageNum small");
+        }*/
         //将参数传给这个方法就可以实现物理分页了，非常简单。
         PageHelper.startPage(pageNum, pageSize);
         List<User> userList = userMapper.selectUsers();

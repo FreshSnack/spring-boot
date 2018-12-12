@@ -5,8 +5,6 @@ import org.apache.commons.io.IOUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.lang.invoke.MethodType;
-
 /**
  * @author dingmx
  * @date 2018/12/11 21:17
