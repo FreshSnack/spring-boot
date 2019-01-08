@@ -12,7 +12,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = com.amar.demo.app.Application.class)
-public class ApplicationTests {
+public class ApplicationTest {
 
     @Test
     public void contextLoads() {
